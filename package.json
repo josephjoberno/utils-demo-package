@@ -1,6 +1,6 @@
 {
   "name": "utils-demo-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "🔌 Utils package ",
   "type": "module",
   "main": "dist/index.js",
