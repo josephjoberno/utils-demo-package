@@ -1,0 +1,19 @@
+{
+    "git": {
+      "requireBranch": "main",
+      "commitMessage": "chore: release v${version}",
+      "tagName": "v${version}",
+      "requireCleanWorkingDir": false
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true
+    },
+    "hooks": {
+      "before:init": ["git pull","pnpm lint", "pnpm test","pnpm build"],
+      "after:bump": "pnpx auto-changelog -p"
+    }
+    
+  }
