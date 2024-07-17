@@ -13,7 +13,7 @@ Sorts an array of objects by a specified key in ascending order.
 
 ## Example
 ```typescript
-import { utils } from 'utils-ts-package';
+import { utils } from 'utils-demo-package';
 
 const items = [{ id: 1, name: "Bob" }, { id: 2, name: "Alice" }];
 const sortedItems = utils.sortBy(items, 'name');

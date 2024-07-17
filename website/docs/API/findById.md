@@ -14,7 +14,7 @@ Finds an element by its ID in an array of objects where each object must have an
 
 ## Example
 ```typescript
-import { utils } from 'utils-ts-package';
+import { utils } from 'utils-demo-package';
 
 const items = [{ id: 1, name: "Alice" }, { id: 2, name: "Bob" }];
 const foundItem = utils.findById(items, 1);

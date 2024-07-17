@@ -13,7 +13,7 @@ Removes an item from an array by its ID.
 
 ## Example
 ```typescript
-import { utils } from 'utils-ts-package';
+import { utils } from 'utils-demo-package';
 
 const items = [{ id: 1, name: "Alice" }, { id: 2, name: "Bob" }];
 const remainingItems = utils.removeItemById(items, 2);

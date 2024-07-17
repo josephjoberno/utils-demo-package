@@ -12,7 +12,7 @@ Removes duplicate values from an array.
 
 ## Example
 ```typescript
-import { utils } from 'utils-ts-package';
+import { utils } from 'utils-demo-package';
 
 const numbers = [1, 2, 2, 3, 4, 4, 5];
 const uniqueNumbers = utils.removeDuplicates(numbers);

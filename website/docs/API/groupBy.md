@@ -13,7 +13,7 @@ Groups the elements of an array based on the specified key.
 
 ## Example
 ```typescript
-import { utils } from 'utils-ts-package';
+import { utils } from 'utils-demo-package';
 
 const items = [{ id: 1, type: "fruit", name: "Apple" }, { id: 2, type: "vegetable", name: "Carrot" }];
 const groupedByType = utils.groupBy(items, 'type');

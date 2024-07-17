@@ -12,7 +12,7 @@ Checks if the given value is empty. It considers a value empty if it is either a
 
 ## Example
 ```typescript
-import { utils } from 'utils-ts-package';
+import { utils } from 'utils-demo-package';
 
 // Checking an empty string
 console.log(utils.isEmpty("")); // Output: true

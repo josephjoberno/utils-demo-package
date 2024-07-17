@@ -15,7 +15,7 @@ Creates a delay (timeout) that can be used to delay execution within asynchronou
 
 ## Example
 ```typescript
-import { utils } from 'utils-ts-package';
+import { utils } from 'utils-demo-package';
 
 async function delayedHello() {
     await utils.delay(1000);

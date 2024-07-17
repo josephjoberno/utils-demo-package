@@ -12,7 +12,7 @@ Finds an element in an array that satisfies a provided testing function. If no e
 
 ## Example
 ```typescript
-import { utils } from 'utils-ts-package';
+import { utils } from 'utils-demo-package';
 
 const items = [{ id: 1, name: "Alice" }, { id: 2, name: "Bob" }];
 const found = utils.find(items, item => item.name === "Bob");

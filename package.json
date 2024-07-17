@@ -2,7 +2,6 @@
   "name": "utils-demo-package",
   "version": "1.0.4",
   "description": "🔌 Utils package ",
-  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -58,8 +57,6 @@
   },
   "files": [
     "dist"
-  ],
-  "engines": {
-    "node": ">=20.0.0"
-  }
+  ]
+ 
 }
